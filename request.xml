@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+      <ns1:css_user soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0" xmlns:ns1="http://www.etisalat.ae/css">admin111</ns1:css_user>
+      <ns2:css_pwd soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0" xmlns:ns2="http://www.etisalat.ae/css">welcome</ns2:css_pwd>
+   </soapenv:Header>
+   <soapenv:Body>
+      <globalStockInquiry xmlns="http://www.etisalat.ae/css">
+         <GlobalStockInqReq xmlns="">
+            <channel>B2C</channel>
+            <mode>LIVE</mode>
+            <sicList>3820201765</sicList>
+         </GlobalStockInqReq>
+      </globalStockInquiry>
+   </soapenv:Body>
+</soapenv:Envelope>
