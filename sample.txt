@@ -1,0 +1,1 @@
+https://www.amdoren.com/api/currency.php?api_key=gbMHPiyrqDwWKXpiBHkpFGt2bBruLT&from=AED&to=USD&amount=50
